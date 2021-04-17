@@ -11,6 +11,7 @@
 RoutAck.exe 192.168.8.1
 
 *RoutAck.exe在附图中提供的网盘中下载
+
 <img src="pan.png" />
 
 2. 激活telnet以后，你可以设置好中继， 然后，运行telnet命令访问e1路由，这时候你要去你的上一级中继路由里看下e1的中断后的i/p地址（比如192.168.1.121)
@@ -35,11 +36,7 @@ option htmode 'HT40+'
 
 *我在Openwrt wiki上找半天也没找到这个option bw 参数意思，估计是bandwidth的缩写，是官改定制的，默认让带宽翻倍，比如前一个要中继的路由40MHZ带宽，翻倍后e1的带宽就是80MHZ
 
-
-
-
-
-
+<img src="wireless.png" />
 
 3. 重启e1无线网络
 
